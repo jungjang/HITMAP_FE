@@ -24,9 +24,7 @@
 
 ### 🚑 나의 서비스 개선 경험
 
-<details>
-  <summary>(1) 초기 로딩속도 개선,최적화 / 라이트하우스 점수 측정</summary>
-  <br>
+(1) 초기 로딩속도 개선,최적화 / 라이트하우스 점수 측정
   [최적화 전]
   
   <p>
@@ -42,10 +40,8 @@
   <p>
   <img src="https://user-images.githubusercontent.com/109060295/218295386-263972d3-9d17-433f-bed1-b26378e590de.png" />
   </p>
-</details>
 
-<details>
-<summary>(2) 유저 피드백 기반 사용성 개선</summary>
+(2) 유저 피드백 기반 사용성 개선
   <br>
 
   [문제상황]
@@ -58,7 +54,7 @@
   <img src="https://user-images.githubusercontent.com/109060295/218295041-9d595b4c-0e94-4a07-bcb8-88bf4b249883.png" />
   <img src="https://user-images.githubusercontent.com/109060295/218295077-b7221881-1107-4807-889a-0c30d5fa0eee.png" />
   </p>
-</details>
+
 
 ### ❗ 느낀점 & 아쉬운점
 - 협업 과정에서 제한된 기간 내에 프로젝트를 완성하기 위해 팀원들의 개발 역량의 객관화와  <br>
