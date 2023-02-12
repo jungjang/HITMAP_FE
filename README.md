@@ -22,7 +22,7 @@
   - [카카오로그인 버튼](https://github.com/jungjang/HITMAP_FE/blob/b64d02d03fb414c211caf857c731521896611c75/src/pages/user/kakaoLogin/Start.jsx)
   - [카카오로그인 redirection페이지](https://github.com/jungjang/HITMAP_FE/blob/b64d02d03fb414c211caf857c731521896611c75/src/pages/user/kakaoLogin/SocialAuth.jsx) 
 
-### 🚑 서비스 개선 경험
+### 🚑 나의 서비스 개선 경험
 
 <details>
   <summary>(1) 초기 로딩속도 개선,최적화 / 라이트하우스 점수 측정</summary>
