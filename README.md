@@ -4,15 +4,6 @@
 ### [👉 히트맵 바로가기](https://hitmap-fe.vercel.app)
 
 
-### 🕶️ 주요 기능
-<details>
-<summary>🗣️ SNS 기능</summary>
-  
-- 잡은 물고기나 낚시 관한 정보 게시
-- 작성된 게시글에 대한 댓글 기능
-- 다른 클라이언트가 작성한 게시글이 마음에 들 경우 좋아요 기능
-</details>
-
 ### 🕶️ 프로젝트 내 '정창원' 상세 역할 코드링크
 - SNS 게시글 CRUD, 게시글 상세조회 Read
   - [게시글 생성](https://github.com/jungjang/HITMAP_FE/blob/b64d02d03fb414c211caf857c731521896611c75/src/components/sns/create/SnsCreate.jsx)
@@ -32,6 +23,47 @@
   - [카카오로그인 redirection페이지](https://github.com/jungjang/HITMAP_FE/blob/b64d02d03fb414c211caf857c731521896611c75/src/pages/user/kakaoLogin/SocialAuth.jsx) 
 
 ### 🚑 서비스 개선 경험
+
+<details>
+  <summary>(1) 초기 로딩속도 개선,최적화 / 라이트하우스 점수 측정</summary>
+  <br>
+  [최적화 전]
+  
+  <p>
+  <img src="https://user-images.githubusercontent.com/109060295/218295248-70ea426d-11a8-447d-a554-88176451665c.png" />
+  </p>
+  
+  [최적화에 적용한 방법]
+  1. React.memo 를 적용하여 props과정에서의 불필요한 재렌더링 방지 
+  2. React.lazy 함수를 이용하여 동적 import를 통해 코드분할
+  3. 서버에서 이미지 리사이징하는 과정에서 발생하는 문제를 프론트엔드에서 임시조치하여 해결
+  
+  [최적화 후]
+  <p>
+  <img src="https://user-images.githubusercontent.com/109060295/218295386-263972d3-9d17-433f-bed1-b26378e590de.png" />
+  </p>
+</details>
+
+<details>
+<summary>(2) 유저 피드백 기반 사용성 개선</summary>
+  <br>
+
+  [문제상황]
+  - 로그인한 유저가 로그아웃,회원탈퇴와 같이 토큰을 핸들링하는 작업을 진행한 후(토큰을 삭제 한 후)<br>
+    뒤로가기 버튼을 누를 경우 여전히 유저 데이터가 남아있는 문제
+  [해결방법]
+  - PrivateRoutes 설정을 통해 <br>
+    토큰이 없을 시 '뒤로가기를 통한 기존데이터 페이지에 접근' 행동을 못하게 처리
+<p>
+  <img src="https://user-images.githubusercontent.com/109060295/218295041-9d595b4c-0e94-4a07-bcb8-88bf4b249883.png" />
+  <img src="https://user-images.githubusercontent.com/109060295/218295077-b7221881-1107-4807-889a-0c30d5fa0eee.png" />
+  </p>
+</details>
+
+### ❗ 느낀점 & 아쉬운점
+- 협업 과정에서 제한된 기간 내에 프로젝트를 완성하기 위해 팀원들의 개발 역량의 객관화와  <br>
+ 이를 통한 적절한 스케쥴링의 중요성을 깨달았습니다.
+- 라이트하우스를 통한 초기로딩속도 개선을 했지만 <br> 추가적으로 서비스 내부에서 이동할 때의 속도 개선을 위해 WebVital을 이용해 개선시켜보고 싶습니다. 
 
 
 ### ⚙️ 기술 스택
