@@ -2,7 +2,7 @@
 <img src="https://user-images.githubusercontent.com/100126319/217750977-35c3f015-7bc4-4d53-a604-6d67101d7758.png" width="300" height="165"/>
 
 ## [👉 히트맵 바로가기](https://hitmap-fe.vercel.app)
-## [👉 히트맵 노션 바로가기](https://www.notion.so/Final-Project-Hit-map-b73f0f5e0db847d0bc9e328cb507f53c)
+## [👉 히트맵 노션 바로가기](https://fluttering-ulna-44a.notion.site/Final-Project-Hit-map-b73f0f5e0db847d0bc9e328cb507f53c)
 
 ## 🕶️ 프로젝트 내 '정창원' 상세 역할 코드링크
 - SNS 게시글 CRUD, 게시글 상세조회 Read
