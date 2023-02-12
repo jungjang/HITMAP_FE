@@ -1,10 +1,8 @@
 # 🎣히트맵🎣
-<img src="https://user-images.githubusercontent.com/100126319/217750977-35c3f015-7bc4-4d53-a604-6d67101d7758.png" width="500" height="300"/>
+<img src="https://user-images.githubusercontent.com/100126319/217750977-35c3f015-7bc4-4d53-a604-6d67101d7758.png" width="200" height="110"/>
 
 ### [👉 히트맵 바로가기](https://hitmap-fe.vercel.app)
 
-
-<hr>
 
 ### 🐟 프로젝트 소개
 #### 낚시에 필요한 날씨 정보 제공과 낚시인들을 위한 SNS 커뮤니티 서비스
@@ -13,6 +11,13 @@
 ### ⏰ 프로젝트 기간
 #### 2022.12.30 ~ 2023.02.10
 
+### 프로젝트 내 '정창원' 상세 역할 링크
+- SNS 게시글 CRUD, 게시글 상세조회 Read
+  - [게시글 생성]
+  - [게시글 조회](https://github.com/jungjang/HITMAP_FE/tree/master/src/components/sns/main)
+  - [게시글 상세 조회]
+  - [게시글 수정]
+  - [게시글 삭제]
 
 ### 🤔 프론트엔드 기술적 의사결정
 #### React
