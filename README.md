@@ -1,30 +1,33 @@
 # 🎣히트맵
 <img src="https://user-images.githubusercontent.com/100126319/217750977-35c3f015-7bc4-4d53-a604-6d67101d7758.png" width="200" height="110"/>
 
-### [👉 히트맵 바로가기](https://hitmap-fe.vercel.app)
+## [👉 히트맵 바로가기](https://hitmap-fe.vercel.app)
 
 
-### 🕶️ 프로젝트 내 '정창원' 상세 역할 코드링크
+## 🕶️ 프로젝트 내 '정창원' 상세 역할 코드링크
 - SNS 게시글 CRUD, 게시글 상세조회 Read
   - [게시글 생성](https://github.com/jungjang/HITMAP_FE/blob/b64d02d03fb414c211caf857c731521896611c75/src/components/sns/create/SnsCreate.jsx)
   - [게시글 조회](https://github.com/jungjang/HITMAP_FE/tree/master/src/components/sns/main)
   - [게시글 상세 조회](https://github.com/jungjang/HITMAP_FE/blob/b64d02d03fb414c211caf857c731521896611c75/src/components/sns/detail/SnsDetailCard.jsx)
   - [게시글 수정](https://github.com/jungjang/HITMAP_FE/blob/b64d02d03fb414c211caf857c731521896611c75/src/components/sns/update/SnsUpdateModal.jsx)
   - [게시글 삭제](https://github.com/jungjang/HITMAP_FE/blob/b64d02d03fb414c211caf857c731521896611c75/src/components/sns/detail/DeleteConfirmModal.jsx)
+  
 - SNS 댓글 CRUD
   - [댓글 생성](https://github.com/jungjang/HITMAP_FE/blob/b64d02d03fb414c211caf857c731521896611c75/src/components/layout/bottomBar/WriteCommentBar.jsx)
   - [댓글 조회](https://github.com/jungjang/HITMAP_FE/blob/b64d02d03fb414c211caf857c731521896611c75/src/components/sns/comment/SnsComment.jsx)
   - [댓글 수정](https://github.com/jungjang/HITMAP_FE/blob/b64d02d03fb414c211caf857c731521896611c75/src/components/sns/comment/CommentUpdateModal.jsx)
   - [댓글 삭제](https://github.com/jungjang/HITMAP_FE/blob/b64d02d03fb414c211caf857c731521896611c75/src/components/sns/comment/CommentDeleteConfirmModal.jsx)
+  
 - 내 정보 수정
   - [내 닉네임,프로필사진 수정](https://github.com/jungjang/HITMAP_FE/blob/b64d02d03fb414c211caf857c731521896611c75/src/components/myPage/EditMyInfo/editUser/EditUser.jsx)
+  
 - 소셜 로그인
   - [카카오로그인 버튼](https://github.com/jungjang/HITMAP_FE/blob/b64d02d03fb414c211caf857c731521896611c75/src/pages/user/kakaoLogin/Start.jsx)
   - [카카오로그인 redirection페이지](https://github.com/jungjang/HITMAP_FE/blob/b64d02d03fb414c211caf857c731521896611c75/src/pages/user/kakaoLogin/SocialAuth.jsx) 
 
-### 🚑 나의 서비스 개선 경험
+## 🚑 나의 서비스 개선 경험
 
-(1) 초기 로딩속도 개선,최적화 / 라이트하우스 점수 측정
+### (1) 초기 로딩속도 개선,최적화 / 라이트하우스 점수 측정
   [최적화 전]
   
   <p>
@@ -41,9 +44,8 @@
   <img src="https://user-images.githubusercontent.com/109060295/218295386-263972d3-9d17-433f-bed1-b26378e590de.png" />
   </p>
 
-(2) 유저 피드백 기반 사용성 개선
+### (2) 유저 피드백 기반 사용성 개선
   <br>
-
   [문제상황]
   - 로그인한 유저가 로그아웃,회원탈퇴와 같이 토큰을 핸들링하는 작업을 진행한 후(토큰을 삭제 한 후)<br>
     뒤로가기 버튼을 누를 경우 여전히 유저 데이터가 남아있는 문제
