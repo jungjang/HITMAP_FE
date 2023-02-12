@@ -1,5 +1,5 @@
 # 🎣히트맵
-<img src="https://user-images.githubusercontent.com/100126319/217750977-35c3f015-7bc4-4d53-a604-6d67101d7758.png" width="200" height="110"/>
+<img src="https://user-images.githubusercontent.com/100126319/217750977-35c3f015-7bc4-4d53-a604-6d67101d7758.png" width="300" height="165"/>
 
 ## [👉 히트맵 바로가기](https://hitmap-fe.vercel.app)
 
