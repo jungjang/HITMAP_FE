@@ -15,7 +15,7 @@
 ## 🕶️ 프로젝트 내 '정창원' 상세 역할 코드링크
 - SNS 게시글 CRUD, 게시글 상세조회 Read
   - [게시글 생성](https://github.com/jungjang/HITMAP_FE/blob/b64d02d03fb414c211caf857c731521896611c75/src/components/sns/create/SnsCreate.jsx)
-  - [게시글 조회](https://github.com/jungjang/HITMAP_FE/tree/master/src/components/sns/main)
+  - [게시글 조회](https://github.com/jungjang/HITMAP_FE/blob/a661ccfcef44e20bbe77655605d58121a3ae5fc7/src/components/sns/main/SnsPostCard.jsx)
   - [게시글 상세 조회](https://github.com/jungjang/HITMAP_FE/blob/b64d02d03fb414c211caf857c731521896611c75/src/components/sns/detail/SnsDetailCard.jsx)
   - [게시글 수정](https://github.com/jungjang/HITMAP_FE/blob/b64d02d03fb414c211caf857c731521896611c75/src/components/sns/update/SnsUpdateModal.jsx)
   - [게시글 삭제](https://github.com/jungjang/HITMAP_FE/blob/b64d02d03fb414c211caf857c731521896611c75/src/components/sns/detail/DeleteConfirmModal.jsx)
