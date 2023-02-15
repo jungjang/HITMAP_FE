@@ -12,7 +12,7 @@
 <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=Vercel&logoColor=white">
 
 
-## 🕶️ 프로젝트 내 '정창원' 상세 역할 코드링크
+## ✨ 프로젝트 내 '정창원' 상세 역할 코드링크 ✨
 - SNS 게시글 CRUD, 게시글 상세조회 Read
   - [게시글 생성](https://github.com/jungjang/HITMAP_FE/blob/b64d02d03fb414c211caf857c731521896611c75/src/components/sns/create/SnsCreate.jsx)
   - [게시글 조회](https://github.com/jungjang/HITMAP_FE/blob/a661ccfcef44e20bbe77655605d58121a3ae5fc7/src/components/sns/main/SnsPostCard.jsx)
